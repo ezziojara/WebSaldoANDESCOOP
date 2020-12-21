@@ -1,0 +1,199 @@
+
+
+#contenedor 	{	width:100%;
+					max-width:1300px;
+					min-width:700px;
+					height: 100%;
+					margin: auto;
+					position:relative;
+					}
+					
+
+
+/*cabecera - andescoop y nº de telefono*/
+					
+header			{	width:100%;
+					height: auto;
+					min-width:700px;}
+					
+header img		{	margin:0;
+					width:100%;
+					max-width:1300px;
+					height:auto;
+					} 
+										
+/* cabecera imagen*/					
+					
+#banner			{	
+					width:100%;
+					height:100%;
+					max-height:250px;
+					
+					}
+
+#banner img		{	max-width:100%;
+					height:auto;
+					-moz-box-shadow: 0 3px 6px #000;
+					-webkit-box-shadow: 0 3px 6px #000;
+					box-shadow: 0 3px 6px #000;}
+					
+.banneraside	{	width:100%;
+					max-width:150px;
+					height:120px;
+					margin:5px 15px;}
+					
+/*botonera izquierda -- solamente la caja*/
+
+aside			{	float:left;
+					width: 100%;
+					max-width: 180px;
+					height:100%;
+					background-color:rgb(219,219,219);
+					margin:0px;
+					padding:0px;}
+/* botonera*/
+					
+nav				{	margin:0px;
+					padding:0px;
+					width:100%;
+					font-family:"Futura Lt BT";
+					font-size:		px;
+					font-weight:lighter;
+					text-align:center;}
+					
+nav ul			{	list-style-type:none;
+ 					margin:0px;
+					padding:15px;
+					}
+					
+nav ul li 		{	margin:7px 0;
+					}
+
+nav ul li a	{		text-decoration:none;
+					display:block;
+					color:#FFFFFF;
+					margin:0;
+					padding:10px 0;
+					background:linear-gradient(90deg, #808080, #919191);
+					background:-moz-linear-gradient(90deg, #808080, #919191);
+					background:-webkit-linear-gradient(90deg, #808080, #919191);
+					border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;
+					
+					transition:background-color 0.5s;
+					-moz-transition-property:background-color 0.5s;
+					-webkit-transition:background-color 0.5s;}	
+					
+.check, nav ul li a:hover {	background:linear-gradient(90deg, #669933, #cccc33);
+					background:-moz-linear-gradient(90deg, #669933, #cccc33);
+					background:-webkit-linear-gradient(90deg, #669933, #cccc33);
+					border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;}
+
+/*contenido central*/	
+
+section			{	float:left;
+					max-width:100%;
+					width: 1100px;
+					position:absolute;
+					left:180px;}
+					
+#online			{	width:100%;
+					max-width:1280px;
+					margin:0  auto;
+					
+
+					}
+					
+
+/*info central*/					
+					
+.central		{	margin: 0 auto;
+					width:100%;
+					max-width:1100px;
+					height:auto;
+					margin-top:30px;
+					font-family:"Futura Lt BT";
+					font-size:14px;
+					font-weight:lighter;
+					text-align:center;}
+.central a 		{	color:#666666;}
+					
+#datousuario	{	width:700px;
+					height:400px;
+					background-color:#CCCCCC;
+					margin: 0 auto;}
+
+					
+h3, b				{	color:#444;}
+
+.volver			{	text-align:right;
+					margin:10px 0 0 0;}	
+					
+/*pie de página*/
+
+footer			{	font-family:futura;
+					font-weight:lighter;
+					font-stretch:condensed;
+					text-align:center;
+					font-size:15px;
+					margin-top: 40px;
+					color:#666;
+					
+					}
+					
+/*contacto*/
+				
+label {				display:block;
+   					margin-top:20px;
+					padding-left:10px;
+    				letter-spacing:2px;
+					text-align:left;
+					font-family:Verdana, Geneva, sans-serif;
+					color:#666666;
+					font-size:12px}
+
+form {				margin:0 auto;
+    				width:100%;
+					max-width:200px}
+
+input, textarea {
+					width:100%;
+					max-width:200px;
+					background:#efefef;
+					border:1px solid #cccc33;
+					padding:10px;
+					margin-top:3px;
+					font-size:0.9em;
+					color:#3a3a3a;
+					-moz-border-radius:5px;
+    				-webkit-border-radius:5px;
+    				border-radius:5px;
+}
+					
+					
+#submit {
+					border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color:#333333;
+					color:#CCC;
+					margin-top:20px;
+					cursor:pointer;
+					text-align:center;
+}
+
+value 			{	margin-left:20px;}
+
+#submit:hover {	 	opacity:.9;}
+							
+					
+					
+@font-face	{		font-family:"Futura Lt BT";
+					src:url(fonts/FutuLt_.ttf) format("truetype");
+					}
+								
+@font-face	{		font-family:Angelina;
+					src:url(fonts/angelina.TTF)format("truetype");}	

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSaldosV3", "WebSaldosV3\WebSaldosV3.csproj", "{CBC1C7A3-FEA1-48D4-BC27-488A670ED398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloIntermedio", "..\ModuloIntermedio\ModuloIntermedio.csproj", "{C9F8BABB-2993-4D46-ACB7-229C06D63DE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC1C7A3-FEA1-48D4-BC27-488A670ED398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC1C7A3-FEA1-48D4-BC27-488A670ED398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC1C7A3-FEA1-48D4-BC27-488A670ED398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC1C7A3-FEA1-48D4-BC27-488A670ED398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F8BABB-2993-4D46-ACB7-229C06D63DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F8BABB-2993-4D46-ACB7-229C06D63DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F8BABB-2993-4D46-ACB7-229C06D63DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F8BABB-2993-4D46-ACB7-229C06D63DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

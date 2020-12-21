@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CBC1C7A3-FEA1-48D4-BC27-488A670ED398}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebSaldosV3</RootNamespace>
+    <AssemblyName>WebSaldosV3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxEditors.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="andescoop_f.patrias.swf" />
+    <Content Include="Beneficio.aspx" />
+    <Content Include="CambioPasword.aspx" />
+    <Content Include="CapitalSocial.aspx" />
+    <Content Include="CargaMasiva.aspx" />
+    <Content Include="CargaSaldos.aspx" />
+    <Content Include="Castigos.aspx" />
+    <Content Include="Castigos2.aspx" />
+    <Content Include="CambioPaswordV3.aspx" />
+    <Content Include="imagenes\bannerheader.png" />
+    <Content Include="imagenes\cambiar password.png" />
+    <Content Include="imagenes\capital social.png" />
+    <Content Include="imagenes\castigos.png" />
+    <Content Include="imagenes\cerrar sesion.png" />
+    <Content Include="imagenes\credito automatico.png" />
+    <Content Include="imagenes\credito extraordinario.png" />
+    <Content Include="imagenes\creditos en cuotas.png" />
+    <Content Include="imagenes\cuenta vista.png" />
+    <Content Include="imagenes\deposito a plazo.png" />
+    <Content Include="imagenes\fondo app.jpg" />
+    <Content Include="imagenes\libreta a plazo.png" />
+    <Content Include="online2.css" />
+    <Content Include="CredExtraordinario.aspx" />
+    <Content Include="CredExtraordinario2.aspx" />
+    <Content Include="CreditoAutomatico.aspx" />
+    <Content Include="CreditoCuotas.aspx" />
+    <Content Include="CreditoCuotas2.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Defaultv3.aspx" />
+    <Content Include="DepositoPlazo.aspx" />
+    <Content Include="DepositoPlazo2.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="flash_andescoop_podologia.swf" />
+    <Content Include="FondoInicio.aspx" />
+    <Content Include="imagenes\Ahorro Brillo.png" />
+    <Content Include="imagenes\Ahorro.png" />
+    <Content Include="imagenes\Ahorro_Oscuro.png" />
+    <Content Include="imagenes\banner5.jpg" />
+    <Content Include="imagenes\boton-css3_thumb[1][1].jpg" />
+    <Content Include="imagenes\bot_tam1_on.png" />
+    <Content Include="imagenes\Cabecera.aspx" />
+    <Content Include="imagenes\cabecera2.jpg" />
+    <Content Include="imagenes\cabeceraconcredito.jpg" />
+    <Content Include="imagenes\cabeceraconcredito.png" />
+    <Content Include="imagenes\Centroconcredicoop2.jpg" />
+    <Content Include="imagenes\centroconcredito.jpg" />
+    <Content Include="imagenes\centroconcredito.png" />
+    <Content Include="imagenes\contacto.png" />
+    <Content Include="imagenes\Credito Brillo.png" />
+    <Content Include="imagenes\Credito.png" />
+    <Content Include="imagenes\demoBoton2.png" />
+    <Content Include="imagenes\enlaces.png" />
+    <Content Include="imagenes\Exelapagado.gif" />
+    <Content Include="imagenes\ExelEncendido.gif" />
+    <Content Include="imagenes\Fondo.GIF" />
+    <Content Include="imagenes\Fondo.JPG" />
+    <Content Include="imagenes\header.gif" />
+    <Content Include="imagenes\header01.gif" />
+    <Content Include="imagenes\header02.gif" />
+    <Content Include="imagenes\icono-impresora 3.gif" />
+    <Content Include="imagenes\iconoAhorro01.gif" />
+    <Content Include="imagenes\iconoCreditos01.gif" />
+    <Content Include="imagenes\icono_impresora 1.gif" />
+    <Content Include="imagenes\infantil.png" />
+    <Content Include="imagenes\inicio.png" />
+    <Content Include="imagenes\institucional.png" />
+    <Content Include="imagenes\logotipo.gif" />
+    <Content Include="imagenes\logotipo.jpg" />
+    <Content Include="imagenes\mano.png" />
+    <Content Include="imagenes\multimedia.png" />
+    <Content Include="imagenes\online.png" />
+    <Content Include="imagenes\online1.png" />
+    <Content Include="imagenes\online2.png" />
+    <Content Include="imagenes\plan-de-negocio-internet.jpg" />
+    <Content Include="imagenes\servicios.png" />
+    <Content Include="imagenes\servicios2.gif" />
+    <Content Include="imagenes\socios.png" />
+    <Content Include="imagenes\telefono.gif" />
+    <Content Include="imagenes\ubicacion.png" />
+    <Content Include="imagenes\volver.png" />
+    <Content Include="imagenes\volver2.png" />
+    <Content Include="Impresion\CapitalSocialPrint.aspx" />
+    <Content Include="Impresion\Castigos2Print.aspx" />
+    <Content Include="Impresion\CastigosPrint.aspx" />
+    <Content Include="Impresion\CredExtraordinario2Print.aspx" />
+    <Content Include="Impresion\CredExtraordinarioPrint.aspx" />
+    <Content Include="Impresion\CreditoCuotas2Print.aspx" />
+    <Content Include="Impresion\CreditoCuotasPrint.aspx" />
+    <Content Include="Impresion\DepositoPlazoPrint.aspx" />
+    <Content Include="Impresion\LibretaPlazo2Print.aspx" />
+    <Content Include="Impresion\LibretaPlazoPrint.aspx" />
+    <Content Include="Impresion\LibretaVistaPrint.aspx" />
+    <Content Include="Impresion\SaldosCaptacionesPrint.aspx" />
+    <Content Include="Impresion\SaldosColocacionesPrint.aspx" />
+    <Content Include="ImprimeCred.aspx" />
+    <Content Include="interior.html" />
+    <Content Include="LibretaPlazo.aspx" />
+    <Content Include="LibretaPlazo2.aspx" />
+    <Content Include="LibretaVista.aspx" />
+    <Content Include="online.css" />
+    <Content Include="online.html" />
+    <Content Include="pruu.aspx" />
+    <Content Include="PtoEspecial.aspx" />
+    <Content Include="SaldosCaptaciones.aspx" />
+    <Content Include="SaldosColocaciones.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="XSL\xml1.xml" />
+    <Content Include="_notes\dwsync.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_LocalResources\Formatos.cs" />
+    <Compile Include="App_LocalResources\FunCaracteres.cs" />
+    <Compile Include="App_LocalResources\Transforma.cs" />
+    <Compile Include="App_LocalResources\Validaciones.cs" />
+    <Compile Include="CapitalSocial.aspx.cs">
+      <DependentUpon>CapitalSocial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapitalSocial.aspx.designer.cs">
+      <DependentUpon>CapitalSocial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CargaMasiva.aspx.cs">
+      <DependentUpon>CargaMasiva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CargaMasiva.aspx.designer.cs">
+      <DependentUpon>CargaMasiva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambioPaswordV3.aspx.cs">
+      <DependentUpon>CambioPaswordV3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CambioPaswordV3.aspx.designer.cs">
+      <DependentUpon>CambioPaswordV3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Defaultv3.aspx.cs">
+      <DependentUpon>Defaultv3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Defaultv3.aspx.designer.cs">
+      <DependentUpon>Defaultv3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\CapitalSocialPrint.aspx.designer.cs">
+      <DependentUpon>CapitalSocialPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\Castigos2Print.aspx.designer.cs">
+      <DependentUpon>Castigos2Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\CastigosPrint.aspx.designer.cs">
+      <DependentUpon>CastigosPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\CredExtraordinario2Print.aspx.designer.cs">
+      <DependentUpon>CredExtraordinario2Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\CredExtraordinarioPrint.aspx.designer.cs">
+      <DependentUpon>CredExtraordinarioPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\CreditoCuotas2Print.aspx.designer.cs">
+      <DependentUpon>CreditoCuotas2Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\CreditoCuotasPrint.aspx.designer.cs">
+      <DependentUpon>CreditoCuotasPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\DepositoPlazoPrint.aspx.designer.cs">
+      <DependentUpon>DepositoPlazoPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\LibretaPlazo2Print.aspx.designer.cs">
+      <DependentUpon>LibretaPlazo2Print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\LibretaPlazoPrint.aspx.designer.cs">
+      <DependentUpon>LibretaPlazoPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\LibretaVistaPrint.aspx.designer.cs">
+      <DependentUpon>LibretaVistaPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\SaldosCaptacionesPrint.aspx.designer.cs">
+      <DependentUpon>SaldosCaptacionesPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion\SaldosColocacionesPrint.aspx.designer.cs">
+      <DependentUpon>SaldosColocacionesPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LibretaPlazo.aspx.designer.cs">
+      <DependentUpon>LibretaPlazo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LibretaPlazo2.aspx.designer.cs">
+      <DependentUpon>LibretaPlazo2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LibretaVista.aspx.designer.cs">
+      <DependentUpon>LibretaVista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaldosColocaciones.aspx.designer.cs">
+      <DependentUpon>SaldosColocaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beneficio.aspx.cs">
+      <DependentUpon>Beneficio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beneficio.aspx.designer.cs">
+      <DependentUpon>Beneficio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambioPasword.aspx.cs">
+      <DependentUpon>CambioPasword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CambioPasword.aspx.designer.cs">
+      <DependentUpon>CambioPasword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CargaSaldos.aspx.cs">
+      <DependentUpon>CargaSaldos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CargaSaldos.aspx.designer.cs">
+      <DependentUpon>CargaSaldos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Castigos.aspx.cs">
+      <DependentUpon>Castigos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Castigos.aspx.designer.cs">
+      <DependentUpon>Castigos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Castigos2.aspx.cs">
+      <DependentUpon>Castigos2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Castigos2.aspx.designer.cs">
+      <DependentUpon>Castigos2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CredExtraordinario.aspx.cs">
+      <DependentUpon>CredExtraordinario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CredExtraordinario.aspx.designer.cs">
+      <DependentUpon>CredExtraordinario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CredExtraordinario2.aspx.cs">
+      <DependentUpon>CredExtraordinario2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CredExtraordinario2.aspx.designer.cs">
+      <DependentUpon>CredExtraordinario2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreditoAutomatico.aspx.cs">
+      <DependentUpon>CreditoAutomatico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreditoAutomatico.aspx.designer.cs">
+      <DependentUpon>CreditoAutomatico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreditoCuotas.aspx.cs">
+      <DependentUpon>CreditoCuotas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreditoCuotas.aspx.designer.cs">
+      <DependentUpon>CreditoCuotas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreditoCuotas2.aspx.cs">
+      <DependentUpon>CreditoCuotas2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreditoCuotas2.aspx.designer.cs">
+      <DependentUpon>CreditoCuotas2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DepositoPlazo.aspx.cs">
+      <DependentUpon>DepositoPlazo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DepositoPlazo.aspx.designer.cs">
+      <DependentUpon>DepositoPlazo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DepositoPlazo2.aspx.cs">
+      <DependentUpon>DepositoPlazo2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DepositoPlazo2.aspx.designer.cs">
+      <DependentUpon>DepositoPlazo2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FondoInicio.aspx.cs">
+      <DependentUpon>FondoInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FondoInicio.aspx.designer.cs">
+      <DependentUpon>FondoInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="imagenes\Cabecera.aspx.cs">
+      <DependentUpon>Cabecera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\CapitalSocialPrint.aspx.cs">
+      <DependentUpon>CapitalSocialPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\Castigos2Print.aspx.cs">
+      <DependentUpon>Castigos2Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\CastigosPrint.aspx.cs">
+      <DependentUpon>CastigosPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\CredExtraordinario2Print.aspx.cs">
+      <DependentUpon>CredExtraordinario2Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\CredExtraordinarioPrint.aspx.cs">
+      <DependentUpon>CredExtraordinarioPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\CreditoCuotas2Print.aspx.cs">
+      <DependentUpon>CreditoCuotas2Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\CreditoCuotasPrint.aspx.cs">
+      <DependentUpon>CreditoCuotasPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\DepositoPlazoPrint.aspx.cs">
+      <DependentUpon>DepositoPlazoPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\LibretaPlazo2Print.aspx.cs">
+      <DependentUpon>LibretaPlazo2Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\LibretaPlazoPrint.aspx.cs">
+      <DependentUpon>LibretaPlazoPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\LibretaVistaPrint.aspx.cs">
+      <DependentUpon>LibretaVistaPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\SaldosCaptacionesPrint.aspx.cs">
+      <DependentUpon>SaldosCaptacionesPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresion\SaldosColocacionesPrint.aspx.cs">
+      <DependentUpon>SaldosColocacionesPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImprimeCred.aspx.cs">
+      <DependentUpon>ImprimeCred.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImprimeCred.aspx.designer.cs">
+      <DependentUpon>ImprimeCred.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LibretaPlazo.aspx.cs">
+      <DependentUpon>LibretaPlazo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LibretaPlazo2.aspx.cs">
+      <DependentUpon>LibretaPlazo2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LibretaVista.aspx.cs">
+      <DependentUpon>LibretaVista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="pruu.aspx.cs">
+      <DependentUpon>pruu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pruu.aspx.designer.cs">
+      <DependentUpon>pruu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PtoEspecial.aspx.cs">
+      <DependentUpon>PtoEspecial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PtoEspecial.aspx.designer.cs">
+      <DependentUpon>PtoEspecial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaldosCaptaciones.aspx.cs">
+      <DependentUpon>SaldosCaptaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaldosCaptaciones.aspx.designer.cs">
+      <DependentUpon>SaldosCaptaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaldosColocaciones.aspx.cs">
+      <DependentUpon>SaldosColocaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Funciones\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="contacto.php" />
+    <None Include="fonts\angelina.TTF" />
+    <None Include="fonts\FutuBd_.ttf" />
+    <None Include="fonts\FutuLt_.ttf" />
+    <None Include="fonts\FutuMd_.ttf" />
+    <None Include="fonts\Futura.ttc" />
+    <None Include="imagenes\Thumbs.db" />
+    <None Include="indicadores.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ModuloIntermedio\ModuloIntermedio.csproj">
+      <Project>{C9F8BABB-2993-4D46-ACB7-229C06D63DE2}</Project>
+      <Name>ModuloIntermedio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57213</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
